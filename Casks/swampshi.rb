@@ -1,6 +1,6 @@
 cask "swampshi" do
-  version "1.0.0"
-  sha256 "3cca1a572b10080c90951b22c53179a6c98b5bcb5714d725dc3bc0d5c0aa13ad"
+  version "1.1.0"
+  sha256 "a9ed76e26d0d22cdd84df1a4970348dad912cec97e929a717543db9932aba6e2"
 
   url "https://github.com/divitkashyap/SwampShi/releases/download/v#{version}/SwampShi-v#{version}-1-unsigned.zip"
   name "SwampShi"
