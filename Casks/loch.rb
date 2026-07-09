@@ -7,7 +7,7 @@ cask "loch" do
   desc "Developer's dynamic island for the MacBook notch"
   homepage "https://github.com/divitkashyap/loch-app"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Loch.app"
 
