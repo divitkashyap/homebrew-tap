@@ -1,6 +1,6 @@
 cask "loch" do
   version "1.2.0"
-  sha256 "e3258492a6e9f652cdde7c3e9072a2f3cc5d4b934d769c45a0b489675a43f990"
+  sha256 "f8134baf4c532bab383572cd0547384c72ec27215914857b0315b9ce2507560e"
 
   url "https://github.com/divitkashyap/loch-app/releases/download/v#{version}/Loch-v#{version}-2-unsigned.zip"
   name "Loch"
