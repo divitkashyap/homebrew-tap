@@ -1,8 +1,8 @@
 cask "loch" do
-  version "1.2.1"
-  sha256 "1089ace621f62390e01664b155c6a4e62ce4de07efe0e9c6f923da02c0e3d74d"
+  version "1.3.0"
+  sha256 "8a00c94e8d33b0e390477cdbddd89a0a9e7770d0e0dfcfad32bac9945308c419"
 
-  url "https://github.com/divitkashyap/loch-app/releases/download/v#{version}/Loch-v#{version}-3-unsigned.zip"
+  url "https://github.com/divitkashyap/loch-app/releases/download/v#{version}/Loch-v#{version}-6-notarized.zip"
   name "Loch"
   desc "Developer's dynamic island for the MacBook notch"
   homepage "https://github.com/divitkashyap/loch-app"
@@ -10,13 +10,6 @@ cask "loch" do
   depends_on macos: :sonoma
 
   app "Loch.app"
-
-  caveats <<~EOS
-    Loch is currently distributed unsigned (free app, no Apple Developer fee yet).
-    If macOS blocks the first launch, clear the quarantine flag once:
-
-      xattr -d com.apple.quarantine "#{appdir}/Loch.app"
-  EOS
 
   zap trash: [
     "~/Library/Preferences/com.divitkashyap.Loch.plist",

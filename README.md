@@ -6,4 +6,5 @@ Homebrew cask for [Loch](https://github.com/divitkashyap/loch-app), the develope
 brew install --cask divitkashyap/tap/loch
 ```
 
-The app is currently unsigned; if macOS blocks the first launch, `brew` prints a one-line `xattr` command to clear it.
+Loch releases are universal Apple Silicon + Intel builds signed with a
+Developer ID, notarized by Apple, and accepted by Gatekeeper.
