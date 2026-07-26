@@ -1,8 +1,8 @@
 cask "loch" do
-  version "1.3.1"
-  sha256 "9518c1b0c15ce453400a765b725980bc62c8bb2a46e8113d61b830ad5c7d2b2e"
+  version "1.4.0"
+  sha256 "44b06ce46bc4f465a4246b93100b3476389ff699c09ead38c2f23fdc4f0855c0"
 
-  url "https://github.com/divitkashyap/loch-app/releases/download/v#{version}/Loch-v#{version}-8-notarized.zip"
+  url "https://github.com/divitkashyap/loch-app/releases/download/v#{version}/Loch-v#{version}-11-notarized.zip"
   name "Loch"
   desc "Developer's dynamic island for the MacBook notch"
   homepage "https://github.com/divitkashyap/loch-app"
